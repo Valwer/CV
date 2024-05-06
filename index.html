@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css personalisé -->
+    <link rel="stylesheet" href="./public/assets/css/styles.css">
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/8049f56234.js" crossorigin="anonymous"></script>
+    <!-- bootstrap CDN-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>CV de Valentin Werquin</title>
+</head>
+<body>
+    
+    <!-- Hero -->
+  <section class="et-hero-tabs">
+    <button class="btn text-white bg-secondary d-lg-none offcanvas-toggle-btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasResponsive" aria-controls="offcanvasResponsive"><i class="fas fa-bars"></i></button>
+
+    <div class="offcanvas offcanvas-end bg-dark text-white" tabindex="-1" id="offcanvasResponsive" aria-labelledby="offcanvasResponsiveLabel">
+      <div class="offcanvas-header">
+        
+        
+      </div>
+      <div class="offcanvas-body mt-5">
+        <ul>
+            <li><a class="offcanvas-link" href="#tab-es6">À PROPOS</a></li>
+            <li><a class="offcanvas-link" href="#tab-flexbox">COMPÉTENCES</a></li>
+            <li><a class="offcanvas-link" href="#tab-react">PARCOURS</a></li>
+            <li><a class="offcanvas-link" href="#tab-angular">RÉALISATIONS </a></li>
+            <li><a class="offcanvas-link" href="#tab-other">CONTACT</a></li>
+        </ul>
+      </div>
+</div>
+    <div class="main-title">
+        <h1>Valentin WERQUIN</h1>
+        <h3>Developpeur Web Junior</h3>
+    </div>
+    <div class="et-hero-tabs-container d-none d-lg-flex">
+      <a class="et-hero-tab" href="#tab-es6">À PROPOS</a>
+      <a class="et-hero-tab" href="#tab-flexbox">COMPÉTENCES</a>
+      <a class="et-hero-tab" href="#tab-react">PARCOURS</a>
+      <a class="et-hero-tab" href="#tab-angular">RÉALISATIONS </a>
+      <a class="et-hero-tab" href="#tab-other">CONTACT</a>
+      <span class="et-hero-tab-slider"></span>
+    </div>
+
+  </section>
+
+  <!-- Main -->
+  <main class="et-main">
+    <section class="et-slide" id="tab-es6">
+      <section id="about">
+        <div class="container-fluid">
+            <div class="row mt-5">
+                <div class="col-12 col-md-6 align-items-center justify-content-center mt-5">
+                    <div class="img-container rounded">
+                        <img src="./public/assets/img/Moi.PNG" width="100%" class="w-75 h-75 rounded">
+                    </div>
+                    <p><b>Nom :</b> Valentin WERQUIN<br>
+                    <b>Age :</b> 30 ans<br>
+                    <b>Ville actuelle :</b> Amiens (80)<br>
+                    <b>Hobbies :</b> jeux-vidéo, jeux de rôle, arts créatifs, web-design</p>
+                </div>
+
+                <div class="col- 12 col-md-6 d-flex flex-column mt-5">
+
+                    <h2 class="pb-5">À propos de moi</h2>
+
+                    <p>Développeur web junior, je recherche un emploi après avoir passé 8 mois de formations intensives en développement web. Cette formation m’a permis d’acquérir autonomie et confiance en moi, malgré le fait que j'étais en totale reconversion profesionnelle. J’ai ainsi pu apprendre les bases du développement, avec notament HTML, CSS, Javascript, Wordpress, PHP.</p>
+                    <p>Je profite aujourd’hui du temps dont je dispose pour continuer d’apprendre de nouvelles technologies et notamment enrichir mes connaissances en développement.</p>
+                    <p>Après avoir passé quelques années en entreprises de téléconseils, j’ai choisi de me reconvertir dans le métier de développeur web. Touche à tout, je m’intéresse également au web design et aux arts graphiques en général, ce qui me permet d’aborder le développement front-end avec sérénité, même lorsque je ne dispose pas de maquette ou de directives précises.</p>
+                    <p>Autonome de nature, je peux travailler seule ou en groupe, étant également capable de m’adapter à un environnement que je ne connais pas. Je sais faire preuve de force de proposition lorsque l’on m’en donne la liberté, cherchant toujours à améliorer et optimiser les projets au maximum pour satisfaire au mieux la demande du client. L’optimisation du code fait partie de mes priorités.</p>
+                </div>
+                <div class="col-12 col-lg-6 text-center align-items-center justify-content-center">
+                    <div class="mt-5 d-flex justify-content-around">
+                        <button class="button-29" role="button"><a href="#tab-other" style="color: inherit; text-decoration: none;">Me contacter</a></button>
+                        
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 text-center align-items-center justify-content-center">
+                    <div class="mt-5 d-flex justify-content-around">
+                      <a href="/public/assets/pdf/CV_Stage_Valentin_WERQUIN _Juillet_2024.pdf" download="CV_Stage_Valentin_WERQUIN" class="button-29" role="button">Télécharger mon CV</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+    </section>
+    <section class="et-slide" id="tab-flexbox">
+       <h2 class="mb-5">COMPÉTENCES</h2>
+      <div class="container">
+          <div class="row">
+              <div class="col-12">
+                <div class="section_our_solution">
+                    <div class="row">
+                      <div class="col-lg-12 col-md-12 col-sm-12 mt-5">
+                        <div class="our_solution_category">
+                          <div class="solution_cards_box">
+                            <div class="card solution_card" id="card1">
+                              <div class="hover_color_bubble"></div>
+                              <div class="solu_title">
+                                <h3>Front-end</h3>
+                                <p>Création et intégration de sites web et applications mobiles responsive, accessibles et répondant aux normes W3C</p>
+                              </div>
+                              <div class="solu_description">
+                                <div class="row">
+                                  <div class="col-12 col-md-6">
+                                    <div class="skill-item mt-4">
+                                      <ul class="list-unstyled">
+                                        <li>HTML 5 <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></li>
+                                        <li>CSS 3 <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></li>
+                                      </ul>
+                                    </div>
+                                  </div>
+                                  <div class="col-12 col-md-6">
+                                    <div class="skill-item mt-4">
+                                      <ul class="list-unstyled">
+                                        <li>Javascript <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></li>
+                                        <li>Bootstrap <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></li>
+                                      </ul>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+              <div class="col-12">
+                <div class="section_our_solution">
+                    <div class="row">
+                      <div class="col-lg-12 col-md-12 col-sm-12 mt-5">
+                        <div class="our_solution_category">
+                          <div class="solution_cards_box">
+                            <div class="card solution_card" id="card2">
+                              <div class="hover_color_bubble"></div>
+                              <div class="solu_title">
+                                <h3>Back-end</h3>
+                                <p>Développement de sites web et applications, création et gestion de bases de données, programmation orientée objet, mise en ligne.</p>
+                              </div>
+                              <div class="solu_description">
+                                <div class="row">
+                                  <div class="col-md-6">
+                                    <div class="skill-item mt-4">
+                                      <ul class="list-unstyled">
+                                        <li>PHP<i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></li>
+                                        <li>MySQL<i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></li>
+                                      </ul>
+                                    </div>
+                                  </div>
+                                  <div class="col-md-6">
+                                    <div class="skill-item mt-4">
+                                      <ul class="list-unstyled">
+                                        <li>Client SSH<i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></li>
+                                        <li>Connexion FTP<i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></li>
+                                      </ul>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+              <div class="col-12">
+                <div class="section_our_solution">
+                    <div class="row">
+                      <div class="col-lg-12 col-md-12 col-sm-12 mt-5">
+                        <div class="our_solution_category">
+                          <div class="solution_cards_box">
+                            <div class="card solution_card" id="card3">
+                              <div class="hover_color_bubble"></div>
+                              <div class="solu_title">
+                                <h3>CMS</h3>
+                                <p>Création et édition de thèmes et plugins. Mon expérience est principalement portée sur WordPress. J'ai l'habitude de travailler avec les plugins WooCommerce et Yoast SEO.</p>
+                              </div>
+                              <div class="solu_description">
+                                <div class="row">
+                                  <div class="col-md-6">
+                                    <div class="skill-item mt-4">
+                                      <ul class="list-unstyled">
+                                        <li>Wordpress <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></li>
+                                        <li>Magento <i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></li>
+                                      </ul>
+                                    </div>
+                                  </div>
+                                  <div class="col-md-6">
+                                    <div class="skill-item mt-4">
+                                      <ul class="list-unstyled">
+                                        <li>Prestashop<i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></li>
+                                      </ul>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-12">
+                <div class="section_our_solution ">
+                    <div class="row">
+                      <div class="col-lg-12 col-md-12 col-sm-12 mt-5">
+                        <div class="our_solution_category">
+                          <div class="solution_cards_box">
+                            <div class="card solution_card" id="card4">
+                              <div class="hover_color_bubble"></div>
+                              <div class="solu_title">
+                                <h3>Web Design</h3>
+                                <p>Création de maquettes XD et HTML, ainsi que de prototypes fonctionnels. Conception centrée utilisateur selon les règles d'UX lors de la création d'une interface utilisateur.</p>
+                              </div>
+                              <div class="solu_description">
+                                <div class="row">
+                                  <div class="col-12 col-md-6">
+                                    <div class="skill-item mt-4">
+                                      <ul class="list-unstyled">
+                                        <li>Figma <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></li>
+                                        <li>Maquettage <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></li>
+                                      </ul>
+                                    </div>
+                                  </div>
+                                  <div class="col-12 col-md-6">
+                                    <div class="skill-item mt-4">
+                                      <ul class="list-unstyled">
+                                        <li>Prototypage <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></li>
+                                        <li>Photoshop <i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></li>
+                                      </ul>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+          </div>
+      </div>
+    </section>
+    <section class="et-slide" id="tab-react">
+        <h2 class="my-5">PARCOURS</h2>
+        <div class="container-fluid">
+            <div class="row">
+                <div id="timeline">
+                    <div class="row timeline-movement timeline-movement-top">
+                        <div class="timeline-badge timeline-future-movement">
+                                <p>2012</p>
+                        </div>
+                    </div>
+                    <div class="row timeline-movement">
+                        <div class="timeline-badge center-left">
+                            
+                        </div>
+                        <div class="col-sm-6  timeline-item">
+                            <div class="row">
+                                <div class="col-sm-11">
+                                    <div class="timeline-panel credits  anim animate fadeInLeft">
+                                        <ul class="timeline-panel-ul">
+                                            <div class="lefting-wrap">
+                                                <li class="img-wraping"><a href="#"><img src="./public/assets/img/mask.jpg" class="img-responsive" alt="user-image" /></a></li>
+                                            </div>
+                                            <div class="righting-wrap">
+                                                <li><span class="causale" style="color:#000; font-weight: 600;">Faculté des Arts (UPJV) Filière « Arts du spectacles »</span> </li>
+                                                <li><span class="causale">Esprit créatif, esprit critique, histoire de l'art</span> </li>
+                                                <li><p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>2012 à 2014</small></p> </li>
+                                            </div>
+                                            <div class="clear"></div>
+                                        </ul>
+                                    </div>
+        
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="row timeline-movement">
+                        <div class="timeline-badge center-right">
+                        
+                        </div>
+                        <div class="offset-sm-6 col-sm-6  timeline-item">
+                            <div class="row">
+                                <div class="offset-sm-1 col-sm-11">
+                                    <div class="timeline-panel debits  anim animate  fadeInRight">
+                                        <ul class="timeline-panel-ul">
+                                            <div class="lefting-wrap">
+                                                <li class="img-wraping"><a href="#"><img src="./public/assets/img/painting_hands.jpg" class="img-responsive" alt="user-image" /></a></li>
+                                            </div>
+                                            <div class="righting-wrap">
+                                                <li><span class="causale" style="color:#000; font-weight: 600;">Animateur de centres de loisirs</span> </li>
+                                                <li><span class="causale">Travail d'équipe, bonne humeur et force de proposition</span> </li>
+                                                <li><p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>2014 - 2016</small></p> </li>
+                                            </div>
+                                            <div class="clear"></div>
+                                        </ul>
+                                    </div>
+        
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="row timeline-movement">
+                        <div class="timeline-badge center-left">
+                            
+                        </div>
+                        <div class="col-sm-6  timeline-item">
+                            <div class="row">
+                                <div class="col-sm-11">
+                                    <div class="timeline-panel credits  anim animate  fadeInLeft">
+                                        <ul class="timeline-panel-ul">
+                                            <div class="lefting-wrap">
+                                                <li class="img-wraping"><a href="#"><img src="./public/assets/img/vehicule-construction-agricole-isole_23-2151170865.jpg" class="img-responsive" alt="user-image" /></a></li>
+                                            </div>
+                                            <div class="righting-wrap">
+                                                <li><span class="causale" style="color:#000; font-weight: 600;">Cariste à la zone industrielle - Amiens</span> </li>
+                                                <li><span class="causale">Rapidité d'exécution, concentration</span> </li>
+                                                <li><p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>2018 - 2020</small></p> </li>
+                                            </div>
+                                            <div class="clear"></div>
+                                        </ul>
+                                    </div>
+        
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="row timeline-movement timeline-movement-top">
+                        <div class="timeline-badge timeline-future-movement">
+                                <p>2020</p>
+                        </div>
+                    </div>
+                    
+                    
+                    <div class="row timeline-movement">
+                        <div class="timeline-badge center-right">
+                        
+                        </div>
+                        <div class="offset-sm-6 col-sm-6  timeline-item">
+                            <div class="row">
+                                <div class="offset-sm-1 col-sm-11">
+                                    <div class="timeline-panel debits  anim animate  fadeInRight">
+                                        <ul class="timeline-panel-ul">
+                                            <div class="lefting-wrap">
+                                                <li class="img-wraping"><a href="#"><img src="./public/assets/img/teleconseil.jpg" class="img-responsive" alt="user-image" /></a></li>
+                                            </div>
+                                            <div class="righting-wrap">
+                                                <li><span class="causale" style="color:#000; font-weight: 600;">Conseiller commercial chez Hellowatt - Amiens</span> </li>
+                                                <li><span class="causale">Commerce, dialogue, ecoute</span> </li>
+                                                <li><p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>2020 - 2023</small></p> </li>
+                                            </div>
+                                            <div class="clear"></div>
+                                        </ul>
+                                    </div>
+        
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                    <div class="row timeline-movement">
+                        <div class="timeline-badge center-left">
+                            
+                        </div>
+                        <div class="col-sm-6  timeline-item">
+                            <div class="row">
+                                <div class="col-sm-11">
+                                    <div class="timeline-panel credits  anim animate  fadeInLeft">
+                                        <ul class="timeline-panel-ul">
+                                            <div class="lefting-wrap">
+                                                <li class="img-wraping"><a href="#"><img src="./public/assets/img/coding.jpg" class="img-responsive" alt="user-image" /></a></li>
+                                            </div>
+                                            <div class="righting-wrap">
+                                                <li><span class="causale" style="color:#000; font-weight: 600;">Formation développeur web La Manu - Amiens</span> </li>
+                                                <li><span class="causale">Front-end, back-end, maquetage fonctionnel, design...</span> </li>
+                                                <li><p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>Fév. 2024 à Août 2024</small></p> </li>
+                                            </div>
+                                            <div class="clear"></div>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>    
+    
+      <section class="et-slide" id="tab-angular">
+        <h2 class="my-5">RÉALISATIONS</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section_our_solution">
+                        <div class="row">
+                          <div class="col-lg-12 col-md-12 col-sm-12">
+                            <div class="our_solution_category">
+                                <div class="solution_cards_box">
+                                    <div class="solution_card">
+                                        <div class="hover_color_bubble"></div>
+                                        <div class="so_top_icon"><i class="fa-brands fa-d-and-d fa-2xl"></i></div>
+                                        <div class="solu_title">
+                                            <h3>Role Helper</h3>
+                                        </div>
+                                        <div class="solu_description">
+                                            <p>
+                                            Le site d'aide et de ressources pour les amateurs de Dungeons & Dragons et autres jeux de rôle.
+                                            </p>
+                                            <button type="button" class="read_more_btn">Voir le site</button>
+                                        </div>
+                                    </div>
+                                    <div class="solution_card mt-5">
+                                        <div class="hover_color_bubble"></div>
+                                        <div class="so_top_icon"><i class="fa-solid fa-dice-six fa-2xl"></i></div>
+                                        <div class="solu_title">
+                                          <h3>Jeu du Yams</h3>
+                                        </div>
+                                        <div class="solu_description">
+                                          <p>
+                                            Le jeu du Yams codé en Javascript
+                                          </p>
+                                          <button type="button" class="read_more_btn">Voir le site</button>
+                                        </div>
+                                      </div>
+                                </div>
+                            </div>
+    </section>
+    <section class="et-slide" id="tab-other">
+        <h2 class="my-5">CONTACT</h2> 
+        <div class="section_our_solution">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                        <div class="our_solution_category">
+                            <div class="solution_cards_box">
+                                <div class="solution_card">
+                                    <div class="hover_color_bubble"></div>
+                                    <div class="so_top_icon"><i class="fa-solid fa-mobile fa-xl"></i></div>
+                                    <div class="solu_title">
+                                        <h3>Téléphone</h3>
+                                    </div>
+                                    <div class="solu_description">
+                                        <p>
+                                            06 87 58 17 41
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                        <div class="our_solution_category">
+                            <div class="solution_cards_box">
+                                <div class="solution_card">
+                                    <div class="hover_color_bubble"></div>
+                                    <div class="so_top_icon"><i class="fa-solid fa-envelope fa-xl"></i></div>
+                                    <div class="solu_title">
+                                        <h3>Mail</h3>
+                                    </div>
+                                    <div class="solu_description">
+                                        <p>
+                                            valentin.w18@yahoo.com
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                        <div class="our_solution_category">
+                            <div class="solution_cards_box">
+                                <div class="solution_card">
+                                    <div class="hover_color_bubble"></div>
+                                    <div class="so_top_icon"><i class="fa-solid fa-comment fa-xl"></i></div>
+                                    <div class="solu_title">
+                                        <h3>Vous souhaitez me rencontre ?</h3>
+                                    </div>
+                                    <div class="solu_description">
+                                        <p>
+                                            Je suis disponible à <strong>Amiens</strong> et ses alentours
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+  </main>
+    <footer>
+
+    </footer>
+
+
+    <script src="./public/assets/js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
