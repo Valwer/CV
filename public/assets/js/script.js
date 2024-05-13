@@ -10,7 +10,7 @@ class StickyNavigation {
         event.preventDefault();
         const target = $(event.currentTarget).attr('href');
         const scrollTop = $(target).offset().top - this.tabContainerHeight + 1;
-        $('html, body').animate({ scrollTop }, 600);
+        $('html, body').animate({ scrollTop }, 100);
     }
 
     onScroll() {
